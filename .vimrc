@@ -1,0 +1,22 @@
+set clipboard+=unnamed
+map <Tab> >gv
+map <S-Tab> <gv
+inoremap jk <esc>
+inoremap kj <esc>
+nnoremap <space> /
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+map <C-h> ^
+map <C-l> $
+imap ö [
+imap ä ]
+imap Ö {
+imap Ä }
+map ö [
+map ä ]
+map Ö {
+map Ä }
+inoremap <A-o> ö
+inoremap <A-a> ä
+inoremap <A-O> Ö
+inoremap <A-A> Ä
