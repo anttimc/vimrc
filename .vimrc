@@ -1,4 +1,6 @@
+
 set clipboard+=unnamed
+let mapleader = ','
 map <Tab> >gv
 map <S-Tab> <gv
 inoremap jk <esc>
@@ -16,7 +18,7 @@ map ö [
 map ä ]
 map Ö {
 map Ä }
-inoremap <A-o> ö
-inoremap <A-a> ä
-inoremap <A-O> Ö
-inoremap <A-A> Ä
+inoremap <Leader>o ö
+inoremap <Leader>a ä
+inoremap <Leader>O Ö
+inoremap <Leader>A Ä
