@@ -1,4 +1,3 @@
-
 set clipboard+=unnamed
 let mapleader = ','
 map <Tab> >gv
@@ -8,8 +7,8 @@ inoremap kj <esc>
 nnoremap <space> /
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
-map <C-h> ^
-map <C-l> $
+map <S-h> ^
+map <S-l> $
 imap ö [
 imap ä ]
 imap Ö {
