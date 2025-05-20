@@ -1,5 +1,6 @@
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 let mapleader = ','
+set hlsearch
 map <Tab> >gv
 map <S-Tab> <gv
 inoremap jk <esc>
