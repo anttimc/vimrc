@@ -1,8 +1,8 @@
 set clipboard+=unnamedplus
 let mapleader = ','
 set hlsearch
-map <Tab> >gv
-map <S-Tab> <gv
+xnoremap <Tab> >gv
+xnoremap <S-Tab> <gv
 inoremap jk <esc>
 inoremap kj <esc>
 nnoremap <space> /
