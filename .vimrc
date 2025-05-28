@@ -18,7 +18,7 @@ map ö [
 map ä ]
 map Ö {
 map Ä }
-inoremap <Leader>o ö
-inoremap <Leader>a ä
-inoremap <Leader>O Ö
-inoremap <Leader>A Ä
+inoremap <Leader>ö ö
+inoremap <Leader>ä ä
+inoremap <Leader>Ö Ö
+inoremap <Leader>Ä Ä
