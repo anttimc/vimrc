@@ -210,33 +210,6 @@
         "command": "workbench.action.toggleMaximizeEditorGroup"
     },
     //
-    // TAB MANAGEMENT
-    //
-    {
-        // "alt+[": Goes to previous editor in group
-        "key": "alt+[",
-        "command": "workbench.action.previousEditor"
-    },
-    {
-        // "alt+]": Goes to next editor in group
-        "key": "alt+]",
-        "command": "workbench.action.nextEditor"
-    },
-    //
-    // WORKSPACE MANAGEMENT
-    //
-    {
-        // "ctrl+shift+w": Closes current workspace
-        "key": "ctrl+shift+w",
-        "command": "workbench.action.closeFolder",
-        "when": "emptyWorkspaceSupport"
-    },
-    {
-        // "ctrl+k p": Copies the path of the active file
-        "key": "ctrl+k p",
-        "command": "workbench.action.files.copyPathOfActiveFile"
-    },
-    //
     // TERMINAL SHORTCUTS
     //
     {

@@ -93,61 +93,6 @@
             ],
             "silent": true
         },
-        // Window Management
-        {
-            // Split editor with leader+w
-            "before": [
-                "<leader>",
-                "w"
-            ],
-            "commands": [
-                "workbench.action.splitEditor"
-            ]
-        },
-        {
-            // Save current file with leader+w+w
-            "before": [
-                "<leader>",
-                "w",
-                "w"
-            ],
-            "commands": [
-                ":w"
-            ]
-        },
-        {
-            // Close current file with leader+w+c
-            "before": [
-                "<leader>",
-                "w",
-                "c"
-            ],
-            "commands": [
-                "workbench.action.closeActiveEditor"
-            ]
-        },
-        // Sidebar and Explorer
-        {
-            // Toggle sidebar and focus explorer with leader+e
-            "before": [
-                "<leader>",
-                "e"
-            ],
-            "commands": [
-                "workbench.action.toggleSidebarVisibility",
-                // "workbench.files.action.focusFilesExplorer" // #TODO: dosent work as expected
-            ]
-        },
-        {
-            // Reveal current file in explorer with leader+f
-            "before": [
-                "<leader>",
-                "f"
-            ],
-            "commands": [
-                "revealInExplorer"
-            ]
-        },
         // File Operations
         {
             // Copy current file path with leader+f+y
@@ -182,29 +127,6 @@
                 "editor.action.commentLine"
             ]
         },
-        // #TODO: confirm the following
-        // {
-        //   // Rename symbol with leader+r+e
-        //   "before": [
-        //     "<leader>",
-        //     "r",
-        //     "e"
-        //   ],
-        //   "commands": [
-        //     "editor.action.rename"
-        //   ]
-        // },
-        // {
-        //   // Rename file with leader+r+f
-        //   "before": [
-        //     "<leader>",
-        //     "r",
-        //     "f"
-        //   ],
-        //   "commands": [
-        //     "fileutils.renameFile"
-        //   ]
-        // }
     ],
     // Visual Mode Keybindings
     "vim.visualModeKeyBindings": [
