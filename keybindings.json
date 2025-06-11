@@ -47,12 +47,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        // "ctrl+]": Go to definition when hovering over a symbol
-        "key": "ctrl+]",
-        "command": "editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus"
-    },
-    {
         // "ctrl+t": Go back to previous location after jumping to definition
         "key": "ctrl+t",
         "command": "workbench.action.navigateBack"
@@ -156,24 +150,6 @@
         "when": "sideBarFocus && sideBarVisible"
     },
     {
-        // "ctrl+shift+1": Opens selected file in the first (left) editor group from File Explorer
-        "key": "ctrl+shift+1",
-        "command": "explorer.openToSide",
-        "args": {
-            "group": 0
-        },
-        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-    },
-    {
-        // "ctrl+shift+2": Opens selected file in the second (right) editor group from File Explorer
-        "key": "ctrl+shift+2",
-        "command": "explorer.openToSide",
-        "args": {
-            "group": 1
-        },
-        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-    },
-    {
         // "ctrl+enter": Initiates file rename when File Explorer is focused
         "key": "ctrl+enter",
         "command": "renameFile",
@@ -208,39 +184,6 @@
         // "ctrl+w m": Toggles maximizing the current editor group
         "key": "ctrl+w m",
         "command": "workbench.action.toggleMaximizeEditorGroup"
-    },
-    //
-    // TERMINAL SHORTCUTS
-    //
-    {
-        // "ctrl+;": Focuses the terminal when it's not currently focused
-        "key": "ctrl+;",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
-        // "ctrl+;": Focuses back to the active editor group when terminal is focused
-        "key": "ctrl+;",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
-    },
-    {
-        // "ctrl+shift+;": Toggles terminal panel maximization and focuses on terminal
-        "key": "ctrl+shift+;",
-        "command": "multiCommand.toggleMaximizedPanelAndFocusTerminal",
-        "when": "!terminalFocus || terminalFocus"
-    },
-    //
-    // QUICK NAVIGATION SHORTCUTS
-    //
-    {
-        // "ctrl+1": Quickly focuses the first editor group (leftmost editor)
-        "key": "ctrl+1",
-        "command": "workbench.action.focusFirstEditorGroup"
-    },
-    {
-        // "ctrl+2": Quickly focuses the second editor group (right editor)
-        "key": "ctrl+2",
-        "command": "workbench.action.focusSecondEditorGroup"
     },
     //
     // PANEL NAVIGATION SHORTCUTS
