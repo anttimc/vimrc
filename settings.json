@@ -32,6 +32,8 @@
     "vim.easymotion": true,
     // Enable incremental search highlighting
     "vim.incsearch": true,
+    // Vim surround
+    "vim.surround": true,
     // Use system clipboard for vim operations
     "vim.useSystemClipboard": true,
     // Enable Ctrl key combinations
