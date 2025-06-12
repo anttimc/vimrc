@@ -25,9 +25,8 @@
     "editor.bracketPairColorization.enabled": true,
     // Show vertical lines for bracket pairs
     "editor.guides.bracketPairs": true,
-    // Configure minimap for better performance and visibility
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.scale": 2,
+    // Disable minimap
+    "editor.minimap.enabled": false,
     // Vim Configuration
     // Enable easymotion plugin for quick navigation
     "vim.easymotion": true,
