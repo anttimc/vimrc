@@ -171,6 +171,14 @@
     // SPLIT MANAGEMENT
     //
     {
+        "key": "ctrl+w v",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+w s",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
         // "alt+h": Decreases the width of the current editor group
         "key": "alt+h",
         "command": "workbench.action.decreaseViewWidth"
