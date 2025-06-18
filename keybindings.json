@@ -10,6 +10,17 @@
         "command": "-extension.vim_ctrl+pagedown",
         "when": "editorTextFocus && vim.active && vim.use<C-pagedown> && !inDebugRepl"
     }
+    // Move lines
+    {
+        // Move line down
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction"
+    },
+    {
+        // Move line up
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction"
+    }
     //
     // VIM NAVIGATION SHORTCUTS
     //
