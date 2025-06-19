@@ -132,6 +132,15 @@
     // Visual Mode Keybindings
     "vim.visualModeKeyBindings": [
         {
+        // Reindent lines
+            "before": [
+                "=",
+            ],
+            "commands": [
+                "editor.action.format"
+            ]
+        },
+        {
             // Comment selected lines and exit visual mode with leader+c
             "before": [
                 "<leader>",
