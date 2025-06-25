@@ -4,5 +4,5 @@
 - VScode keydings.json copied and modified from https://github.com/wojukasz/VimCode/blob/main/config/keybindings.json
 
 # Useful plugins (note to self)
-- [indent object](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vim-indent-object)
-- [vim sneak](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vim-sneak)
+- [indent object (<operation>ii/ai)](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vim-indent-object)
+- [vim sneak (s/S <character><character>)](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vim-sneak)
